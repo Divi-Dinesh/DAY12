@@ -1,0 +1,46 @@
+html.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Shop Poster</title>
+    <style>
+        body {
+            background-color: #ffcc00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #poster {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #ff5733;
+        }
+        p {
+            color: #333;
+        }
+        .burger-image {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="poster">
+        <h1>Welcome to Our Burger Shop</h1>
+        <img class="burger-image" src="https://images.unsplash.com/photo-1616420812082-1ff2334daf57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Burger">
+        <p>Try our delicious and mouthwatering burgers today!</p>
+        <p>We use the freshest ingredients to create the best burgers in town.</p>
+        <p>Open every day from 11:00 AM to 9:00 PM</p>
+    </div>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------
+
